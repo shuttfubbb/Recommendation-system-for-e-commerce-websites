@@ -26,6 +26,17 @@ References about [LocalEncoder](https://vjs.ac.vn/index.php/jcc/article/view/158
 | learning rate | 0.001 |
 | max session len | 20 |
 
+## Result
+
+|Model	|Recall@20|	Recall@10|	Recall@5|	MRR@20	|MRR@10	|MRR@5 |
+| - | :-: | :-: | :-: | :-: | :-: | :-: |
+|Gru4Rec	|65.67	|54.65	|41.42	|27.08	|26.3	|24.53 |
+|Bert4Rec	|67.3	|59.32	|48.8	|34.45	|33.89	|32.46 |
+|Local Encoder	|71.2	|60.72	|47.52	|30.86	|30.12	|28.35 |
+|Decoder Only	|70.7	|60.11	|46.92	|30.68	|29.93	|28.17 |
+|Local Encoder x Decoder	|71.23	|60.52	|47.42	|30.84	|30.08	|28.32 |
+
+
 ## Dataset
 [YooChoose](https://www.kaggle.com/datasets/chadgostopp/recsys-challenge-2015)
 
